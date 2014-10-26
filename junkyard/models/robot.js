@@ -14,7 +14,7 @@ var RobotSchema = new mongoose.Schema({
     }
   },
   cooldown: {
-    type: int,
+    type: Number,
     default: 0
   }
 });
