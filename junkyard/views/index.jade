@@ -1,0 +1,10 @@
+extends layouts/main
+
+block content
+  h1="The Junkyard"
+  p#intro="How would you like to use the junkyard?"
+  #captcha
+    #human
+      a(href='stream')="As a Human"
+    #robot
+      a(href='register')="As a Robot"
